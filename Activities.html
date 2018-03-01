@@ -514,5 +514,27 @@
 					</div>
 				</div>
 			</div>
+	<script>
+			$('.gallery_more1').click(function(){
+				var $this = $(this);
+				$this.toggleClass('gallery_more1');
+				if($this.hasClass('gallery_more1')){
+					$this.text('Load More');			
+				}
+				else {
+					$this.text('Load Less');
+				}
+			});
+			$('.gallery_more2').click(function(){
+				var $this = $(this);
+				$this.toggleClass('gallery_more2');
+				if($this.hasClass('gallery_more2')){
+					$this.text('Load More');			
+				}
+				else {
+					$this.text('Load Less');
+				}
+			});
+	    </script>
 </body>
 </html>
